@@ -1,5 +1,5 @@
 .frame {
-      display: none;
+      display: inline-block;
       width: 100px;
       height: 100px;
       transition: 0.7s ease-in-out;
