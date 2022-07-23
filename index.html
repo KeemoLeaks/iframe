@@ -3,52 +3,44 @@
 <head>
   <title>iframe</title>
   <link rel="stylesheet" href="navbar.css"><!-- Navigation Bar -->
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-
-<header>
-    <div class="container">
-      <h1 class="logo"></h1>
-
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<HEAD>
-  <SCRIPT language="JavaScript">
-var password;
-var pass1="test"
-password=prompt('Enter password',' ');
-if (password==pass1)
-  alert('Password Correct! Click OK to enter!');
-else
-   {
-    window.location="page";
+  <input id="enter"></input>
+  <button id="thisisanunnecessarilylongid" onClick="myFunction()">Enter</button>
+  <script>
+    function myFunction() {
+      var value = document.querySelector('input').value;
+      var key = "pass"
+      if (value === key) {
+        document.getElementById('enter').style.display = "none"
+        document.getElementById('thisisanunnecessarilylongid').style.display = "none";
+        alert('Correct, welcome to Tranquility.');
+        document.getElementById('main').style.display = "block";
+      } else {
+        alert("Incorrect, initiating self destruct.");
+        document.body.style.display = "none";
+      }
     }
-</SCRIPT>
-  </HEAD>
+  </script>
 
+  <div id="main">
+    <header>
+      <div class="container">
+        <h1 class="logo"></h1>
+
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+  </div>
 </body>
