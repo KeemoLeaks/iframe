@@ -1,0 +1,19 @@
+.frame {
+      display: none;
+      width: 100px;
+      height: 100px;
+      transition: 0.7s ease-in-out;
+    }
+    .frame a {
+      text-decoration: none;
+      color: black;
+    }
+    .frame img {
+      height: 100%;
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .frame:hover {
+      width: 140px;
+    }
