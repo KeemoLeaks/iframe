@@ -32,7 +32,7 @@ font-face {
 body {
  background-color: black;
 }
-#glow {
+.glow {
  animation: glow 4s ease-in-out;
  color: white;
  font-family: Elianto;
