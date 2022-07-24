@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #f5f8ff;
+  background-color: #000000;
 }
 .wrapper {
   width: 95%;
@@ -23,18 +23,18 @@ body {
   padding: 1em 0.3em;
 }
 #search-container input:focus {
-  border-bottom-color: #6759ff;
+  border-bottom-color: ##666666;
 }
 #search-container button {
   padding: 1em 2em;
   margin-left: 1em;
-  background-color: #6759ff;
+  background-color: ##666666;
   color: #ffffff;
   border-radius: 5px;
   margin-top: 0.5em;
 }
 .button-value {
-  border: 2px solid #6759ff;
+  border: 2px solid ##666666;
   padding: 1em 2.2em;
   border-radius: 3em;
   background-color: transparent;
@@ -42,7 +42,7 @@ body {
   cursor: pointer;
 }
 .active {
-  background-color: #6759ff;
+  background-color: ##666666;
   color: #ffffff;
 }
 #products {
