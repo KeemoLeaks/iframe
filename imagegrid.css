@@ -16,8 +16,7 @@
       object-fit: cover;
     }
     .frame:hover {
-      width: 130px;
-      height: 120px; 
+      width: 125px;
     }
     .frame:hover .text {
       opacity: 100%;
