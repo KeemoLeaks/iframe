@@ -1,16 +1,55 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-  <title>Pr0xy - Tranqulity</title>
+  <title>Proxys - Tranqulity</title>
   <link rel="icon" href="IMG/TranquilityImage.png">
   <link rel="stylesheet" href="navbar.css"><!-- Navigation Bar -->
-  <link rel="stylesheet" href="imagegrid.css"><!-- Image Grid -->
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .frame {
+      width: 600px;
+      height: 300px;
+      margin: 30px;
+      border: 3px solid rgb(94, 94, 94);
+      border-radius: 28px;
+      display: inline-flex;
+    }
+
+    .frame img {
+      width: 300px;
+      height: 300px;
+      border-radius: 12px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .frame .name {
+      display: inline-flex;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .frame .desc {
+      font-size: 25px;
+      color: rgb(155, 155, 155)
+    }
+
+    .text-frame {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
 </head>
 
 <body>
-
-
-
   <div id="main">
     <header>
       <div class="container2">
@@ -18,7 +57,7 @@
 
         <nav>
           <ul>
-            <li><a href="../">Home</a></li>
+            <li><a href="../iframe/">Home</a></li>
             <li><a href="game.html">Games</a></li>
             <li><a href="#">Proxy</a></li>
             <li><a href="about.html">About</a></li>
@@ -28,21 +67,37 @@
       </div>
     </header>
   </div>
-
-<div class="frame">
-  <a href="#">
-    <img src="IMG/boogle_square.png">
-  </a>
-</div>
-<div class="frame">
-  <a href="#">
-    <img src="https://www.tastefulspace.com/wp-content/uploads/2022/02/unnamed-1.jpg%22%3E">
-  </a>
-</div>
-<div class="frame">
-  <a href="#">
-    <img src="https://www.w3technic.com/wp-content/uploads/2022/03/feature-image-15-950x500.png%22%3E">
- </a>
-</div> 
-
+  <center>
+    <div class="frame">
+      <a href="#">
+        <img style="object-fit:contain" src="IMG/boogle_square.png">
+      </a>
+      <div class="text-frame">
+        <p class="name">Boogle</p>
+        <p class="desc">One of the best unblockers there are.</p>
+      </div>
+    </div>
+    <div class="frame">
+      <a href="#">
+        <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png">
+      </a>
+      <div class="text-frame">
+        <p class="name">Google</p>
+        <p class="desc">Classic search engine, no website unblocking but should unblock some searches</p>
+      </div>
+    </div>
+    <div class="frame">
+      <a href="#">
+        <img src="https://cdn.geekwire.com/wp-content/uploads/2020/10/0EVE9TeW_400x400.png">
+      </a>
+      <div class="text-frame">
+        <center>
+          <p class="name">Bing</p>
+          <p class="desc">who the hell uses this</p>
+        </center>
+      </div>
+    </div>
+  </center>
 </body>
+
+</html>
