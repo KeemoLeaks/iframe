@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Geometry Dash - Version Select</title>
-        <style>
-            body {
-                background-color: black;
-                color: white;
-                font-family: 'Roboto', sans-serif;
-            }
-            a {
-                text-decoration: none;
-                color: white;
-            }
-            img, a {
-                height: 80px; 
-                width: 80px;
-                display: inline-flex;
-                margin: 15px;
-            }
-            img {
-                object-fit: fill;
-            }
-        </style>
-    </head>
-    <body>
-        <center>
+
+<head>
+    <title>Geometry Dash - Version Select</title>
+    <link rel="stylesheet" href="https://tranqulity.github.io/iframe/imagegrid.css">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .frame:hover {
+            width: 120px !important;
+        }
+        .frame:hover img {
+            width: 120px !important;
+        }
+        .frame {
+            width: 120px !important;
+        }
+        .frame img {
+            width: 120px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
         <h1>Select Version</h1>
         <br>
-        <a href="Regular"><img src="https://cdn2.scratch.mit.edu/get_image/project/105500895_480x360.png"></a>
-        <a href="Meltdown"><img src="https://cdn2.scratch.mit.edu/get_image/project/143663274_480x360.png"></a>
-        </center>
-    </body>
+        <div class="frame">
+            <a href="Regular">
+                <img style="margin-right: 30px;"
+                    src="https://cdn2.scratch.mit.edu/get_image/project/105500895_480x360.png">
+                <p class="text">Regular</p>
+            </a>
+        </div>
+        <div class="frame">
+            <a href="Meltdown">
+                <img src="https://cdn2.scratch.mit.edu/get_image/project/143663274_480x360.png">
+                <p class="text">Meltdown</p>
+            </a>
+        </div>
+    </center>
+</body>
+
 </html>
